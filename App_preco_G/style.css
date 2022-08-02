@@ -1,0 +1,120 @@
+*{
+    box-sizing: none;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+header{
+    border: px solid red;
+    width: 100%;
+    height: 10%;
+
+    background-color: #4822E0;
+} 
+
+#side-top{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-inline: 10px;
+}
+
+nav ul{
+    border: px solid blue;
+    display: flex;
+    gap: 50px;
+
+    width: 100%;
+}
+
+li{
+    padding: 5px;
+    list-style: none;
+    background-color: #585CE0;
+    color: aliceblue;
+}
+
+#icon{
+    width: 50px;
+    height: 50px;
+}
+
+#login{
+    width: 6em;
+    height: 2em;
+    text-align: center;
+}
+
+#login input{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+/***************************** Fim do header ***************************/
+
+
+/***************************** Começo formulário ***************************/
+
+fieldset{
+    padding: 15px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+/***************************** Fim formulário ***************************/
+
+/************************ Começo Lista de produtos *****************/
+section{
+    border: px solid black;
+    width: 70%;
+    height: 100%;
+    margin: auto;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.tituloLista{
+    border: px solid red;
+    width: 50%;
+    padding: 3px;
+    margin: auto;
+    margin-block: 10px;
+    border-radius: 10px;
+    background-color: #7376e3;
+    box-shadow: 3px 3px 5px  black;
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    color: rgb(251, 247, 247);
+}
+
+#horizontal{
+    border: px solid blue;
+    margin: auto;
+    margin-bottom: 5px;
+    width: 50%;
+    background-color:rgb(222, 219, 219) ;
+   
+    
+}
+
+
+
+/*********************** Fim Lista de produtos ***************/
+
+

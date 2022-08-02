@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Arthur henrique">
+    <meta name="description" content="Site top">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+    <title>Preço Certo</title>
+</head>
+<body>
+    <header>
+        <div id="side-top">
+            <div id="area-icon">
+                <img id="icon" src="imagens/aami19-87-256.webp" alt="">
+            </div>
+            <div>
+                <nav>
+                    <ul>
+                        <li>Home</li>
+                        <li>Sobre</li>
+                        <li>Contato</li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="login">
+                <input type="button" value="login">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Cadastro dos Ingredientes</legend>
+                <label for="name_produto">
+                    <p>Nome do produto</p>
+                    <input type="text" name="" id="name_produto">
+                </label>
+                <label for="preco_produto">
+                    <p>Preço do produto</p>
+                    <input type="number" name="" id="preco_produto">
+                </label>
+
+                <label for="quantidade_produto">
+                    <p>Quantidade do produto</p>
+                    <input type="number" name="" id="quantidade_produto">
+                </label>
+
+                <label for="peso_produto">
+                    <p>Peso do produto</p>
+                    <input type="number" name="" id="peso_produto">
+                </label>
+
+                <label for="medida_Produto">
+                    <p>Unidade de médida</p>
+                    <select name="" id="unidade_medida">
+                        <option value="">Selecione a Medida</option>
+                        <option value="gramas">Gramas / g</option>
+                        <option value="quilos">Quilos / Kg</option>
+                    </select>
+                </label>
+                <input type="button" value="Cadastrar" onclick="cadastrarProdutos()">
+            </fieldset>
+
+            <fieldset>
+                <legend>Produto Final</legend>
+                <label for="name_produto_final">
+                    <p>Nome do produto final</p>
+                    <input type="text" name="" id="name_produto_final">
+                </label>
+                <label for="ingredientes_produto_final">
+                    <p>Ingredientes</p>
+                    <input type="text" name="" id="ingredientes_produto_final">
+                </label>
+                <label for="quantiade_produto_final">
+                    <p>Quantidade</p>
+                    <input type="number" name="" id="quantiade_produto_final" placeholder="em gramas" >
+                </label>
+                <input type="button" value="Adicionar" onclick="adicionar()">
+            </fieldset>
+        </form>
+        <section>   
+            <h3 id="titulo_produto_final"></h3>
+            <!-- <div id="lista_produtos">
+                
+            </div>         -->
+        </section>
+    </main>
+</body>
+</html>
